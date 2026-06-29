@@ -1,0 +1,43 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+@use "vuetify/settings" with (
+  $body-font-family: (
+    "Inter",
+    sans-serif,
+  ),
+  $heading-font-family: (
+    "Inter",
+    sans-serif,
+  ),
+  // $color-pack: false
+  $field-clearable-margin: 0,
+  $list-item-prepend-size: 12px,
+  $list-item-icon-margin-start: 9px,
+  $list-item-icon-margin-end: 9px,
+  $field-font-size: unset,
+  $card-text-font-size: inherit,
+  $card-text-font-weight: inherit,
+  $card-text-letter-spacing: inherit,
+  $card-text-line-height: inherit,
+  $table-font-size: 14px,
+  $table-header-font-size: inherit,
+  $table-header-font-weight: 700,
+  $list-item-slim-spacer-width: 4px,
+  $timeline-item-padding: 8px,
+  $list-item-title-font-size: 14px,
+  $input-font-size: 14px,
+  $label-font-size: 14px,
+  $button-font-size: 12px,
+  $chip-font-size: 12px,
+  $breadcrumbs-divider-padding: 0 4px,
+  $breadcrumbs-item-padding: 0 2px,
+  $breadcrumbs-padding-x: 0,
+  $breadcrumbs-padding-y: 0,
+  $breadcrumbs-line-height: 20px,
+  $breadcrumbs-item-icon-font-size: 16px
+);
