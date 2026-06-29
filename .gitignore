@@ -21,3 +21,6 @@ temp/
 
 .DS_Store
 Thumbs.db
+
+.ruler
+.vscode
